@@ -1,1 +1,19 @@
-{"id":"/iron-routine/","name":"IRON ROUTINE","short_name":"IRON ROUTINE","description":"Personal gym and home workout tracker","start_url":"./index.html","scope":"./","display":"standalone","background_color":"#080808","theme_color":"#080808","icons":[{"src":"icons/icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]}
+{
+  "id": "./",
+  "name": "IRON ROUTINE",
+  "short_name": "IRON",
+  "description": "Personal gym and home workout tracker",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "portrait",
+  "background_color": "#080808",
+  "theme_color": "#080808",
+  "icons": [
+    {"src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+    {"src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"},
+    {"src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any"}
+  ]
+}
